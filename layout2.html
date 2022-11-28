@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        font-family: "Times New Roman", Times, serif;
+      }
+      header {
+        background-color: rgb(0, 162, 255);
+        padding: 1rem;
+        margin: 2rem;
+        border-radius: 16px;
+        min-width: 651px;
+      }
+      section {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-content: flex-end;
+      }
+      main {
+        border-radius: 16px;
+        min-width: 651px;
+        height: 55vh;
+        flex: 3 1 700px;
+        background-color: green;
+        padding: 2rem;
+        margin: 0 2rem;
+      }
+      aside {
+        border-radius: 16px;
+        background-color: red;
+        flex: 1 10 80px;
+        padding: 2rem;
+        margin-right: 2rem;
+      }
+      footer {
+        padding: 1rem;
+        background-color: blue;
+        margin: 2rem;
+        border-radius: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 651px;
+      }
+      h3 {
+        color: white;
+        font-size: 25px;
+      }
+      main .item div {
+        background-color: rgb(0, 255, 0);
+        border-radius: 8px;
+        margin: 1rem;
+        padding: 3rem;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h3>header</h3>
+    </header>
+    <section>
+      <main>
+        <div><h3>main</h3></div>
+        <div class="item">
+          <div>item</div>
+          <div>item</div>
+          <div>item</div>
+          <div>item</div>
+          <br />
+          <div>item</div>
+          <div>item</div>
+          <div>item</div>
+          <div>item</div>
+          <br />
+          <div>item</div>
+          <div>item</div>
+          <div>item</div>
+        </div>
+      </main>
+      <aside>
+        <h3>sidebar</h3>
+      </aside>
+    </section>
+    <footer>
+      <h3>footer</h3>
+    </footer>
+  </body>
+</html>
